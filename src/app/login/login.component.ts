@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
                 if(result.success){
                     localStorage.setItem('jwt', result.token)
                     alert(result.message);
-                    this.router.navigateByUrl('/home');
+                    this.router.navigateByUrl('/login');
                 }
                 else {
 
