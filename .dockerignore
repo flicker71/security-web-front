@@ -1,0 +1,4 @@
+# On ne copie pas les dossiers 
+node_modules
+.git
+.gitignore
